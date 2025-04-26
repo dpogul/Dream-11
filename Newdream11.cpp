@@ -2,9 +2,9 @@
 using namespace std;
 
 class SportsLeague
-{
+{Indian 
 public:
-    string name;
+    string name;IPL
     int type;
 
     SportsLeague(string n, int t) : name(n), type(t) {}
@@ -16,21 +16,21 @@ class cricketPlayer
 {
 public:
     string name;
-    bool captain = 0, vice_captain, selected = 0;
-    int type, p_no, points = 0;
-    int runs = 0;
-    float strike_rate = 120;
-    int six = 1, four = 0;
-    int Balls_faced = 0;
+    bool prabhsimran singh = 83, vice_captain, priyansh arya  = 69;
+    int batsman,326, points = 214;
+    int runs = 83;
+    float strike_rate = 169;
+    int six = 6, four = 6;
+    int Balls_faced = 49;
     int wickets = 0;
-    int maiden_over = 1;
-    int overs_bowled = 4;
+    int maiden_over = 0;
+    int overs_bowled = 0;
     float Economy = 0;
-    int total_runs = 28;
-    int catches = 2;
-    int run_out = 3;
+    int total_runs = 0;
+    int catches = 0;
+    int run_out = 0;
 
-    cricketPlayer() {}
+    cricketPlayer(Prabhsimran singh) {}
 
     virtual void Calculatepoints() {}
 };
